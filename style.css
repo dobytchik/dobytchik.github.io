@@ -1,0 +1,121 @@
+body {
+	margin: 0;
+	padding: 0;
+	cursor: url(img/Arrow.cur), default;
+	user-select: none;
+}
+
+#head-content {
+	background: gray;
+	padding: 10px;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+#navigation {
+	display: flex;
+	justify-content: space-around;
+}
+
+/*Ссылки в nav*/
+#headLink-1, #headLink-2, #headLink-3 {/*Ссылки*/
+	background: skyblue;
+	border-radius: 5px; 
+	color: white;
+	font-family: sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 10px;
+	border: solid skyblue 3px;
+	width: 170px;
+	text-align: center;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	font-family: Andale Mono, monospace;
+	cursor: url(img/Hand.cur), default;
+}
+
+#headLink-1:hover, #headLink-2:hover, #headLink-3:hover {/*Ссылки*/
+	background: aqua;
+	border: solid skyblue 3px;
+}
+
+#headLink-1 {/*Отступ между кнопками меню*/
+	margin-left: 350px;
+}
+
+#headLink-3 {/*Отступ между кнопками меню*/
+	margin-right: 350px;
+}
+
+#sectionTab-1 {/*Страница 1*/
+	background: silver;
+	height: 100%;
+	position: fixed;
+	width: 100%;
+	margin-top: 69px;
+}
+
+#sectionTab-2 {/*Страница 2*/
+	background: silver;
+	height: 100%;
+	position: fixed;
+	width: 100%;
+	margin-top: 69px;
+	display: none;
+}
+
+#sectionTab-3 {/*Страница 3*/
+	background: yellow;
+	height: 100%;
+	position: fixed;
+	width: 100%;
+	margin-top: 69px;
+	display: none;
+}
+
+#box-info {/*Информация на первой странице*/
+	height: 100%;
+	width: 70%;
+	margin: 0 auto;
+	background: white;
+	border-left: solid grey 25px;
+	border-right: solid grey 25px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+#info-head {/*Оглавление на первой странице*/
+	text-align: center;
+	margin: 0 auto;
+	border-bottom: solid black 1px;
+	width: 70%;
+	padding-top: 16%;
+	padding-bottom: 30px;
+	font-size:  38px;
+	color: teal;
+	font-family: Courier New, monospace;
+}
+
+#info-text {/*Текст на первой странице*/
+	text-indent: 50px;
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 50%;
+	text-align: center;
+	font-family: Andale Mono, monospace;
+	font-size: 17px;
+}
+
+#info-creater {/*Разработчик и версия(1 стр.)*/
+	text-align: center;
+	margin-top: 10%;
+	margin-left: 20px;
+	font-family: Courier New, monospace;
+}
+
+#game-container {
+	background: red;
+	width: 95%;
+	height: 100%;
+	margin: 0 auto;
+}
