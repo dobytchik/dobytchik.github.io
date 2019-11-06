@@ -48,8 +48,8 @@ body {
 	margin-right: 400px;
 }
 
-@media screen and (min-width: 1024px) {
-  #headLink-3 {/*Отступ между кнопками меню*/
+@media screen and (min-device-width:600px) and (max-device-width:1024px) {
+	#headLink-3 {/*Отступ между кнопками меню*/
 	margin-right: 600px;
   }
   #headLink-1 {/*Отступ между кнопками меню*/
