@@ -30,7 +30,6 @@ body {
 	border: solid skyblue 3px;
 	width: 170px;
 	text-align: center;
-	box-shadow: 0 0 5px rgba(0,0,0,0.5);
 	font-family: Andale Mono, monospace;
 	cursor: url(img/Hand.cur), default;
 }
@@ -38,23 +37,16 @@ body {
 #headLink-1:hover, #headLink-2:hover, #headLink-3:hover {/*Ссылки*/
 	background: aqua;
 	border: solid skyblue 3px;
+	transition: 0.5s;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 #headLink-1 {/*Отступ между кнопками меню*/
-	margin-left: 400px;
+	margin-left: 350px;
 }
 
 #headLink-3 {/*Отступ между кнопками меню*/
-	margin-right: 400px;
-}
-
-@media screen and (min-device-width:600px) and (max-device-width:1024px) {
-	#headLink-3 {/*Отступ между кнопками меню*/
-	margin-right: 600px;
-  }
-  #headLink-1 {/*Отступ между кнопками меню*/
-	margin-left: 600px;
-  }
+	margin-right: 350px;
 }
 
 #sectionTab-1 {/*Страница 1*/
@@ -100,9 +92,10 @@ body {
 	width: 70%;
 	padding-top: 16%;
 	padding-bottom: 30px;
-	font-size:  38px;
+	font-size:  32px;
 	color: teal;
 	font-family: Courier New, monospace;
+	text-shadow: 0 0 5px rgba(0,0,0,1);
 }
 
 #info-text {/*Текст на первой странице*/
@@ -122,9 +115,8 @@ body {
 	font-family: Courier New, monospace;
 }
 
-#game-container {
-	background: red;
-	width: 95%;
-	height: 100%;
+#cvs {
+	display: block;
 	margin: 0 auto;
+	border: solid black 5px;
 }
